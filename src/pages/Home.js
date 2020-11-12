@@ -4,6 +4,8 @@ import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import Services from "../components/Services";
 import FeaturedRooms from "../components/FeaturedRooms";
+import Form from "../components/Form";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -18,6 +20,8 @@ const Home = () => {
 
       <Services />
       <FeaturedRooms />
+      <Form />
+      <Footer />
     </>
   );
 };

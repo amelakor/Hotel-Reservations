@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { FaAlignRight } from "react-icons/fa";
-import logo from "../images/logo.svg";
+import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 
 class Navbar extends Component {
@@ -34,6 +34,9 @@ class Navbar extends Component {
             </li>
             <li>
               <Link to="/rooms">Rooms</Link>
+            </li>
+            <li>
+              <Link to="/signin">SignIn</Link>
             </li>
           </ul>
         </div>
